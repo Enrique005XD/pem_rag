@@ -18,7 +18,7 @@ class LLMManager:
     """
 
     def __init__(self):
-        self.api_key = "AIzaSyAte3m51n9cxuHtJWuASyj4SgJcgTksLXU"
+        self.api_key = "Paste your api key"
         self.gemini_ready = False
 
         if genai and self.api_key:
@@ -131,3 +131,4 @@ if __name__ == "__main__":
     llm = LLMManager()
     response = llm.generate(query, chunks)
     print(response["answer"])
+
